@@ -1,0 +1,23 @@
+{
+  "name": "node_understanding_the_basics",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakuDevT/node_understanding_basic.git"
+  },
+  "author": "\"Mark Angelo Unida\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakuDevT/node_understanding_basic/issues"
+  },
+  "homepage": "https://github.com/MakuDevT/node_understanding_basic#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }          
+}

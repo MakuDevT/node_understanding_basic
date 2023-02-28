@@ -6,7 +6,7 @@ const requestHandler = (request,response) =>{
     if(url === '/'){
         response.write('<html>');
     response.write('<head> <title> Enter Message</title></head>');
-    response.write('<body><form action ="/message" method ="POST" name = "message"> <input type ="text" name ="message"> <button type = "submit"></button></form> </body>');
+    response.write('<body><form action ="/message" method ="POST" name = "message"> <input type ="text" name ="message"> <button type = "submit">Send</button></form> </body>');
     response.write('</html>');
     return response.end;
     }
